@@ -1,8 +1,16 @@
 ---
-title: "Quatro-cli-bugs"
+title: "RStudio-image-preview-source-mode"
 bibliography: references.bib
 ---
 
-![bias source ](bias_1.png)
+![bias source](bias_1.png)
 
-![bias source [@Dastin2018Amazon]](bias_1.png)
+issue:
+
+![ChatGPT political bias [text]{.h1}](bias_1.png)
+
+![ChatGPT political bias --- source [@Dastin2018Amazon]](bias_1.png)
+
+workaround:
+
+![ChatGPT political bias --- source @Dastin2018Amazon](bias_1.png)
