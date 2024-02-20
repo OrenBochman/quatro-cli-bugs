@@ -1,0 +1,8 @@
+---
+title: "Quatro-cli-bugs"
+bibliography: references.bib
+---
+
+![bias source ](bias_1.png)
+
+![bias source [@Dastin2018Amazon]](bias_1.png)
