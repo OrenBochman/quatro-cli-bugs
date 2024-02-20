@@ -1,0 +1,18 @@
+---
+title: "issue #8739"
+subtitle: "Light box image group image duplicated when scrolling"
+lightbox: true
+---
+
+
+![1](https://placehold.co/600x400?font=roboto&text=A+Click+Target+1){.column-margin group="my-gallery"}
+
+
+![2](https://placehold.co/600x400?font=roboto&text=A+Click+Target+2){.column-margin group="my-gallery"}
+
+
+![3](https://placehold.co/600x400?font=roboto&text=A+Click+Target+3){.column-margin group="my-gallery"}
+
+
+![4](https://placehold.co/600x400?text=A+Click+Target+4){.column-margin group="my-gallery"}
+
