@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Quatro-cli-bugs</title>
+<title>issue #8738</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,52 +20,37 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
-<script src="image-preview-bug_files/libs/clipboard/clipboard.min.js"></script>
-<script src="image-preview-bug_files/libs/quarto-html/quarto.js"></script>
-<script src="image-preview-bug_files/libs/quarto-html/popper.min.js"></script>
-<script src="image-preview-bug_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="image-preview-bug_files/libs/quarto-html/anchor.min.js"></script>
-<link href="image-preview-bug_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="image-preview-bug_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="image-preview-bug_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="image-preview-bug_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="image-preview-bug_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="index_files/libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="index_files/libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="index_files/libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 
 
 </head>
 
-<body class="fullcontent">
+<body>
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
-<main class="content" id="quarto-document-content">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+</div>
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Quatro-cli-bugs</h1>
+<h1 class="title">issue #8738</h1>
+<p class="subtitle lead">Margin Lightbox images in margin won’t open</p>
 </div>
 
 
@@ -82,25 +67,21 @@ div.csl-indent {
 </header>
 
 
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="bias_1.png" class="img-fluid figure-img"></p>
-<figcaption>bias source</figcaption>
+<section id="title" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="title">Title</h2>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p class="page-columns page-full"><a href="https://placehold.co/600x400?font=roboto&amp;text=A+Click+Target+1.png" class="lightbox page-columns page-full" data-gallery="my-gallery" data-glightbox="description: .lightbox-desc-1" title="1"><div class="no-row-height column-margin column-container"><img src="https://placehold.co/600x400?font=roboto&amp;text=A+Click+Target+1.png" class="img-fluid figure-img" alt="1"></div></a></p>
+<figcaption>1</figcaption>
 </figure>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="bias_1.png" class="img-fluid figure-img"></p>
-<figcaption>bias source <span class="citation" data-cites="Dastin2018Amazon">(<a href="#ref-Dastin2018Amazon" role="doc-biblioref">Dastin 2018</a>)</span></figcaption>
-</figure>
+<div class="page-columns page-full"><p> </p><div class="no-row-height column-margin column-container"><img src="https://placehold.co/600x400?font=roboto&amp;text=Not+A+Click+Target+3.png" class="img-fluid" data-group="my-gallery" alt="2"><img src="https://placehold.co/600x400?text=text=Not+A+Click+Target+4.png" class="img-fluid" data-group="my-gallery" alt="3"></div></div>
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">1</span>
 </div>
+</section>
 
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-Dastin2018Amazon" class="csl-entry" role="listitem">
-Dastin, Jeffrey. 2018. <span>“Amazon Scraps Secret AI Recruiting Tool That Showed Bias Against Women.”</span> <a href="https://www.reuters.com/article/amazoncom-jobs-automation/insight-amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSL2N1VB1FQ/?feedType=RSS%26feedName=companyNews" class="uri">https://www.reuters.com/article/amazoncom-jobs-automation/insight-amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSL2N1VB1FQ/?feedType=RSS%26feedName=companyNews</a>.
-</div>
-</div></section></div></main>
+</main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -490,6 +471,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","loop":false,"descPosition":"bottom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 
