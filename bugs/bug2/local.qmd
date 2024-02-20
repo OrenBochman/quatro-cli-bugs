@@ -1,0 +1,18 @@
+---
+title: "issue #8739"
+subtitle: "Light box image group image duplicated when scrolling"
+lightbox: true
+---
+
+
+![1](1.svg){.column-margin group="my-gallery"}
+
+
+![2](2.svg){.column-margin group="my-gallery"}
+
+
+![3](3.svg){.column-margin group="my-gallery"}
+
+
+![4](4.svg){.column-margin group="my-gallery"}
+
